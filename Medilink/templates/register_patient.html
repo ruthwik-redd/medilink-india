@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Patient</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register Patient</h1>
+        <form id="registerPatientForm">
+            <div class="form-group">
+                <label for="name">Patient Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="access_code">Access Code:</label>
+                <input type="text" id="access_code" required>
+            </div>
+            <div class="form-group">
+                <label for="condition">Medical Condition:</label>
+                <input type="text" id="condition" required>
+            </div>
+            <div class="form-group">
+                <label for="medications">Medications (comma-separated):</label>
+                <input type="text" id="medications" required>
+            </div>
+            <div class="form-group">
+                <label for="allergies">Allergies (comma-separated):</label>
+                <input type="text" id="allergies" required>
+            </div>
+            <button type="submit" class="btn">Register Patient</button>
+        </form>
+        <a class="btn" href="index.html">Back to Home</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
