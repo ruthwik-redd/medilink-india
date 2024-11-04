@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Patient</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Search Patient</h1>
+        <form id="searchPatientForm">
+            <div class="form-group">
+                <label for="search_term">Enter Patient Name or Access Code:</label>
+                <input type="text" id="search_term" required>
+            </div>
+            <button type="submit" class="btn">Search</button>
+        </form>
+        <div id="searchResults"></div>
+        <a class="btn" href="index.html">Back to Home</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
